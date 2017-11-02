@@ -20,9 +20,9 @@ LocationInfo location = IpUtil.getIpLocation(request);
 LocationInfo location = IpUtil.getIpLocation(ip);
 
 # 说明
-LocationInfo 字段说明  
-country 国家  
-province 省份  
-city 城市  
-county 县  
-isp 运营商  
+* LocationInfo 字段说明  
+* country 国家  
+* province 省份  
+* city 城市  
+* county 县  
+* isp 运营商  
