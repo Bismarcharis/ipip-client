@@ -1,8 +1,8 @@
 # ipip-client
-
 ipip-client 是基于ipip地址库用于解析ip地址信息的项目, 支持地址库数据变更自动监听并加载！(目前仅支持ipip 高级版数据)
 
 # 特点  
+
 1. 一键引入jar包，无需任何配置，对业务代码零侵入  
 
 2.加载地址库数据使用默认地址(/data/17monipdb/ipip/gaoji.dat)，支持用户自定义(最高优先级)，在启动项目时指定JVM属性 -Dipip.file=***  
@@ -10,7 +10,9 @@ ipip-client 是基于ipip地址库用于解析ip地址信息的项目, 支持地
 3.地址库数据变更自动reload时间间隔默认为1小时，用户可自定义(最高优先级)，启动项目时指定JVM属性 -Dipip.interval=*** （秒级）
 
 # 使用  
-1.pom中引入ipip-client   
+
+1.pom中引入ipip-client  
+
 ```
 <dependency>
     <groupId>com.kuaikan.ipip</groupId>
